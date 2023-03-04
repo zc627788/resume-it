@@ -1,146 +1,127 @@
 ---
-update_time: '2017.08.06'
-name: 张睿武
-nickname: xiao555
-meta_content: 大三前端狗，HR姐姐们把我招到碗里去吧
-keywords: xiao555,前端,工作,简历
+update_time: '2023.03.04'
+name: 张卓成
+nickname: Jackson
+meta_content: 于2020年开始接触前端，喜欢编码，有Geek精神。喜欢接触前沿技术，具有探索精神，相信天道酬勤
+keywords: Jackson，前端，工作，简历
 ga_id: 'UA-92595311-1'
-age: 22岁
+age: 24岁
 gender: 男
-school: 西安电子科技大学
-profession: 软件工程
-grade: 大四
-english_level: CET-6
-blog: https://www.xiao555.com.cn
-github: https://www.github.com/xiao555
+school: 广州新华学院
+profession: 数字媒体技术
+grade: 大三
+english_level: CET-4
+blog: https://juejin.cn/user/312226875626132
+github: https://github.com/zc627788
 website: 
-online: https://xiao555.github.io/Resume/
+online: 
 print: https://xiao555.github.io/Resume/print.html
 apply_to_position: Web前端工程师
 description: !!md |
-  我叫张睿武，西电软件学院大四学生，现在在腾讯TEG实习，负责前端开发。自学web前端，后端Node.js，PHP 也略知一二。能折腾，喜欢在实践中学习，学Vue的时候就是看两天文档，然后直接用在写个人博客上，在不断的跳坑脱坑中进步。希望在工作中能应用到自己所学的东西，跟产品一同成长。
+  我叫张卓成，于2020年开始接触前端，现广州新华学院大三学生，之前在金山西山居实习过一年，负责前端开发，喜欢编码，有Geek精神。喜欢接触前沿技术，具有探索精神，相信天道酬勤
 contact: # 联系方式
   -
     icon: fa-envelope
     name: Email
-    value: zhangruiwu32@gmail.com
+    value: zc627788@gmail.com
   -
-    icon: fa-qq
-    name: QQ
-    value: '1335497539'
+    icon: fa-wechat
+    name: wechat
+    value: '13692509104'
   -
     icon: fa-phone-square
     name: PhoneNumber
-    value: '18729316081'
+    value: '13692509104'
 honor: # 奖项荣誉
+  -
+    name: '英语四级、软考设计师中级、1+x高级'
 tech: # 技能点
   -
     name: HTML/CSS
     percentage: 80%
   -
-    name: JavaScript
-    percentage: 60%
+    name: JS/ES6
+    percentage: 70%
   -
-    name: PHP
-    percentage: 50%
+    name: React
+    percentage: 65%
   -
     name: Git
-    percentage: 60%
+    percentage: 55%
   -
     name: Node.js
-    percentage: 40%
+    percentage: 50%
 experience: # 项目经验
   -
     section: 个人项目
     project:
       -
-        name: nunjucks-extend-loader
-        date: 2017.2
+        name: VUE+Express+MySQL 图书管理系统
+        date: 2021.2
         img:
         website:
-        source_code: https://github.com/xiao555/nunjucks-extend-loader
+        source_code: https://github.com/zc627788/vue-Both-front-and-back-
         des: !!md |
-          开发了一个多页应用脚手架[Webjucks](https://github.com/xiao555/Webjucks)，开发框架的过程中，自己写了个loader，已发布在npm上。用 Node的fs模块递归创建不存在的目录，最后通过回调函数完成最后一步copy文件的动作。
+          与校内小伙伴一同开发的图书管理系统，主要负责前端部分，技术栈是 VUE+Express+MySQL采用前后端分离
       -
-        name: Resume-it
-        date: 2017.2
+        name: 仿掘金Blog
+        date: 2023.1-至今
         img:
         website:
-        source_code: https://github.com/xiao555/Resume-it
+        source_code: https://github.com/juejin-imitation-smd
         des: !!md |
-          知乎上看大家的简历，感觉模板很多，但个人信息是不变的，所以我就想搞一个数据模板分离的简历生成器，这样无论换模板还是改数据都非常方便。暂时 48 star，21 fork，有人用是最好的。
-          
-          最初是用webpack打包的，后来换成了Gulp，简单易用，不必上webpack，后面打算改造成页面可以直接修改的。
-      -
-        name: Blog
-        date: 2017.4-至今
-        img:
-        website:
-        source_code: https://github.com/xiao555/blog
-        des: !!md |
-          用来练手Vue的项目，基于Koa2 + Vue2 + MongoDB + Redis 搭建的 前后端分离 + RESTful API + SSR 的博客系统，并且进行了性能优化，加快首屏渲染速度。
-          
-          最近参考vue-hacknews2.0对前端部分进行了一次重构，新版本的webpack打包体积好小，实现了按需加载css，服务器部分也正准备上docker，正在写dockerfile中...
+          参加春季字节青训营与小伙伴们一同开发的仿掘金官网，基于Next.js + Nest.js + Mysql(Typeorm) 搭建的 前后端分离 + RESTful API + SSR 的博客系统，并且进行了性能优化，加快首屏渲染速度，获得考官们一致好评
   -
-    section: 实习经历
+    section: 工作经历
     exper:
       - 
-        company: 腾讯
-        time: 2017.7.14 - 2017.9.1
+        company: 金山(实习)
+        date: 2020.6.14 - 2021.7.20
         desc: !!md |
-          在TEG研发管理部TAPD中心实习，主要做前端方面的实现需求，解决bug等工作。
+          在珠海金山西山居质量中心部门中实习，主要做前端方面的工作，前后负责过4到5个平台的开发与维护，技术栈涉及到react、vue以及JQuery等
         project:
           -
             des: !!md |
-              技术需求上，改造过内部的一个手机号验证组件，实现了多实例，状态保存等功能，在代码层面也做了优化，减少$的使用，重复运行的代码抽离出来等等。
+             一.抽离复用性高的代码做公有组件、对相关请求、可视化功能和状态管理工具进行基建封装供团队使用
           -
             des: !!md |
-              业务需求上，在做官网轮播图需求的时候，把旧的代码封装成内部组件，并且可以绑定多个实例，实现代码的复用。
+              二.基于 antd-pro脚手架的企业级项目，对项目大量游戏数据进行渲染、国际化处理、JavaScript逻辑功能的修改
           -
             des: !!md |
-              在解决bug的过程中，也积累了不少经验，比如有ie下的background：rgba兼容性问题，通过google用filter解决的。
+              三.使用Nest.js为后端，配合MySQL(typeOrm)或者MongoDB开发后端接口
           -
             des: !!md |
-              在开发的过程中，我会思考怎么实现是最好的，团队的产品也教会了我认真做好每一个细节。在腾讯的人生第一次职场之旅，我觉得ok。
+              四.优化点：1.使用React Hooks重写Class复杂页面，2.将庞大的数据量Table数据，进行后端分页处理， 3.对MongoDB进行添加索引从之前的10.7s降低到2.1s
+          -
+            name: 安装包分析平台
+            date: '2020.8 - 2021.7'
+            source_code:
+            des: !!md |
+              这是我接手的第一个项目，主要负责使用 Antd-design、G2、Less、Dva、Lodash、Moment.js等前端工具和Nest.js、MongoDB、Redis等后端工具，处理游戏数据的页面渲染和状态管理，实现搜索、分页、上传文件拦截、下载报告等功能，并对页面进行国际化翻译和自适应处理
+              
       - 
-        company: WPNinja
-        time: 2016.7 - 2017.5
-        desc: 这是一个面向国外客户的远程开发团队，基于wordpress搭建网站，前五个月我负责前端部分的开发, 最大程度的还原设计稿，完成页面交互，后面开始负责后端PHP开发。
+        company: 爱浦京股份有限公司
+        date: 2021.6 - 2022.7
+        desc: 主要为香港所有公立医院的病人服务数据进行统一处理，我主要负责的模块是，孕妇产前产后预约管理和婴儿出生资料记录
         project:
           -
-            name: SSRGA
-            date: '2016.7'
-            img: https://xiao555.netlify.com/ssrga.jpg
-            website: http://www.ssrga.com/
-            source_code:
             des: !!md |
-              这是我接手的第一个项目，为了适应团队框架完成页面我快速学习了模板引擎Nunjucks，CSS预处理器Stylus，数据层YAML语法等等。
-              然后在实践中巩固，最终一个周左右实现了这个项目的前端部分。
+              一.使用React + Material-ui 为公司搭建员工绩效管理平台
           -
-            name: Clubfit
-            date: '2016.8'
-            img: https://xiao555.netlify.com/clubfit.jpg
-            website: http://clubfit.vwmdev.com/
-            source_code:
             des: !!md |
-              接手这个项目时已经对团队的框架比较熟悉了，这个项目也包括了很多页面组件，算是强化练习吧。每天的代码leader会review，我再相应的做出修改，整个过程下来收获很多，是一次蜕变。
+              二.使用React改写Vue的ruoyi管理平台
           -
-            name: taldumande
-            date: '2016.9'
-            img: https://xiao555.netlify.com/taldumande.jpg
-            website: https://www.taldumande.org.au/
-            source_code:
             des: !!md |
-              这是项目前端已经能完全独立完成了，设计也有很多有趣的地方，像header，footer部分两种颜色，为了不影响其它布局也比较方便用伪元素解决。没有很难的地方，细节很多，也比较考验布局能力。
+              三.为香港的公立医院的病人数据互通开发大型数据管理平台，主要基于Single-spa的微服务，使用React+Material-ui开发，表单使用Fromik
           -
-            name: workforceprofessionals
-            date: '2016.10'
-            img: https://xiao555.netlify.com/workforceprofessionals.jpg
-            website: https://workforceprofessionals.org/
+            des: !!md |
+              四.二次封装Fromik的FastField组件，解决大量字段时输入文字出现明显卡顿的问题
+          -
+            name: HA医疗管理平台
+            date: '2021.12 - 2022.7'
             source_code:
             des: !!md |
-              这个项目我负责后端，跟leader语音交流了一下后端框架的用法，研究了两三天大体了解了基于wordpress的后端的工作方式，于是用边写边学的方式完成了这个项目。我做的就是写项目有关的逻辑，数据的导入获取等等。
-              另外，首页的下面的Twitter部分是我写的，之前获取tweet的方法需要各种key麻烦还有问题，我查了好久找到一个相关的js库Twitter-Post-Fetcher，使用简单。
+              基于Single-spa的微服务框架开发新的独立项目，规范化搭建react-redux + redux-saga来管理数据状态，封装自定义数据逻辑Hooks供团队使用，抽离复用性高的代码做公共函数或组件，并通过二次封装FastFiled来解决大量表单提交时输入框卡顿的问题
           # -
           #   name: innerdoor
           #   date: 2016.11 - 至今
@@ -153,16 +134,14 @@ experience: # 项目经验
 skill: # 技能清单
       -
         des: !!md |
-          能够用 HTML + CSS 编写语义化的代码，完成较复杂的布局，熟悉Stylus、PostCss 等css预处理、后处理工具
+          两年react经验的企业开发经历， 并了解其基本原理。熟悉react周边生态， 例如:ui框架(Ant-design、material-ui)、状态管理库(redux、dva)、路由(react-router)、图表库(formik)、可视化(echart)等等
       -
         des: !!md |
-          在Blog项目中熟悉了 Vue，写过Vue的双向数据绑定[Demo](https://github.com/xiao555/Two-way-Data-Bindings)， 使用了 ES6、7 的新语法，了解 Node.js, jQuery.
+          熟悉 Nest， MongoDB， Mysql 能搭建简单的后端项目，国内云部署网站
       -
         des: !!md |
-          熟悉 Git Webpack Gulp 等开发工具
-      -
-        des: !!md |
-          熟悉 Koa, Express, MongoDB, Mysql 能搭建简单的后端项目，租了Digital Ocean 的VPS，腾讯云 部署网站
+          熟悉 Git 流程和Webpack 相关打包开发工具
+
 
 
 ---
